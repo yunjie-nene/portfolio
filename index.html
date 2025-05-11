@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nora xu — software developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="watermark">nora</div>
+    
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    NORA XU<span class="logo-subtitle">— Software Developer</span>
+                </div>
+                <nav class="social-icons">
+                    <a href="https://github.com/yunjie-nene" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/yunjie-xu-7b7a982bb/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:yxu349@aucklanduni.ac.nz" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img class="profile-image" src="https://res.cloudinary.com/dnmbrvmpc/image/upload/v1746929194/nora_ameyoh.jpg" alt="Me"></img>
+                    <h1>Hi, I'm Nora — a curious mind building tech with heart.</h1>
+                    <p class="hero-subtitle">Full-Stack Developer · AI Integration · ML Enthusiast</p>
+                    <a href="#content" class="cta-button">See My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <div id="content" class="tabs-container">
+            <div class="container">
+                <ul class="tabs">
+                    <li><button class="tab-button active" data-tab="projects">Projects</button></li>
+                    <li><button class="tab-button" data-tab="skills">Skills</button></li>
+                    <li><button class="tab-button" data-tab="journey">Journey</button></li>
+                    <li><button class="tab-button" data-tab="volunteering">Volunteering</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <section id="projects" class="projects tab-content active">
+            <div class="container">
+                <h2 class="section-title">things I've built</h2>
+                <div class="projects-grid">
+                    <a href="https://github.com/yunjie-nene/mini-trello-clone" target="_blank" class="project-card fade-in">
+                        <i class="fas fa-external-link-alt project-link-arrow"></i>
+                        <div class="project-header">
+                            <h3 class="project-title">Mini Trello Clone</h3>
+                        </div>
+                        <p class="project-desc">A Kanban-style task management app with drag-and-drop cards, responsive design, and full CRUD features for boards, lists, and tasks. Built GraphQL APIs with Apollo Server and used Apollo Client for optimistic UI updates. Implemented native Drag & Drop and mobile-first layouts using Tailwind CSS and Radix UI.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">GraphQL</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                    </a>
+
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3 class="project-title">AWS Cloud Architecture</h3>
+                            <span class="project-badge">group project</span>
+                        </div>
+                        <p class="project-desc">Collaborated with teammates to design a scalable architecture for an e-commerce business. Defined goals and implemented infrastructure on AWS lab. Applied lifecycle policies, cross-region backup, auto scaling, and CloudWatch alerts.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">CloudWatch</span>
+                            <span class="tech-tag">Auto Scaling</span>
+                            <span class="tech-tag">EC2</span>
+                            <span class="tech-tag">S3</span>
+                        </div>
+                    </div>
+
+                    <a href="https://github.com/yunjie-nene/Collablog" target="_blank" class="project-card fade-in">
+                        <i class="fas fa-external-link-alt project-link-arrow"></i>
+                        <div class="project-header">
+                            <h3 class="project-title">Collablog</h3>
+                            <span class="project-badge">group project</span>
+                        </div>
+                        <p class="project-desc">Led a team to build a full-stack blogging platform supporting multi-level comment threads and post interactions. Managed Git collaboration and version control. Implemented infinite scroll with masonry layout.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Svelte</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">REST APIs</span>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills tab-content">
+            <div class="container">
+                <h2 class="section-title">tech I use</h2>
+                <div class="skills-grid">
+                    <div class="skill-category fade-in">
+                        <h3>Languages</h3>
+                        <div class="skill-icons">
+                            <i class="fab fa-python skill-icon" data-tooltip="Python"></i>
+                            <i class="fab fa-java skill-icon" data-tooltip="Java"></i>
+                            <i class="fab fa-js skill-icon" data-tooltip="JavaScript"></i>
+                            <i class="devicon-typescript-plain skill-icon" data-tooltip="TypeScript"></i>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <h3>Framework</h3>
+                        <div class="skill-icons">
+                            <i class="fab fa-react skill-icon" data-tooltip="React"></i>
+                            <i class="fab fa-node-js skill-icon" data-tooltip="Node.js (Express)"></i>
+                            <i class="fas devicon-svelte-plain skill-icon" data-tooltip="Svelte"></i>
+                            <i class="fas fa-brain skill-icon" data-tooltip="scikit-learn"></i>
+                            <i class="fas fa-robot skill-icon" data-tooltip="Selenium"></i>
+                            <i class="fas fa-vial skill-icon" data-tooltip="Pytest"></i>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <h3>Databases</h3>
+                        <div class="skill-icons">
+                            <i class="fas fa-database skill-icon" data-tooltip="MySQL"></i>
+                            <i class="fas devicon-sqlite-plain skill-icon" data-tooltip="SQLite"></i>
+                            <i class="fas devicon-mongodb-plain skill-icon" data-tooltip="MongoDB"></i>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <h3>Cloud & Tools</h3>
+                        <div class="skill-icons">
+                            <i class="fab fa-aws skill-icon" data-tooltip="AWS"></i>
+                            <i class="fab fa-github skill-icon" data-tooltip="Git"></i>
+                            <i class="fas fa-cogs skill-icon" data-tooltip="CI/CD"></i>
+                            <i class="fas fa-tachometer-alt skill-icon" data-tooltip="JMeter"></i>
+                            <i class="fas fa-mail-bulk skill-icon" data-tooltip="Postman"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="journey" class="journey tab-content">
+            <div class="container">
+                <h2 class="section-title">my journey</h2>
+                <div class="timeline-container">
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2024-2026</div>
+                            <h3 class="timeline-title">Master of Information Technology</h3>
+                            <div class="timeline-subtitle">University of Auckland</div>
+                            <div class="timeline-description">Current student with a GPA of 8.75/9.0 (S1-S2, 2024)</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Mar 2022 – Nov 2023</div>
+                            <h3 class="timeline-title">Test Engineer</h3>
+                            <div class="timeline-subtitle">Beijing Huahong IC Design Co., Ltd</div>
+                            <div class="timeline-description">
+                                Tested smart gas meter systems and backend APIs using Python and Java. This role sparked my transition into software development, where I discovered my passion for scalable backend systems.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2014-2018</div>
+                            <h3 class="timeline-title">B.E. in Materials Science and Engineering</h3>
+                            <div class="timeline-subtitle">Chongqing University</div>
+                            <div class="timeline-description">Foundation in engineering principles and analytical thinking</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="volunteering" class="volunteering tab-content">
+            <div class="container">
+                <h2 class="section-title">giving back & growing</h2>
+                <div class="volunteering-grid">
+                    <div class="volunteer-item fade-in">
+                        <div class="volunteer-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="volunteer-content">
+                            <h3 class="volunteer-title">WDCC Hackathon Participant<span class="hackathon-badge">sci-fi themed</span></h3>
+                            <div class="volunteer-org">Auckland (2024)</div>
+                            <p class="volunteer-desc">Built a memory app coded prototype (BCI concept) in a sci-fi themed hackathon.</p>
+                        </div>
+                    </div>
+                    <div class="volunteer-item fade-in">
+                        <div class="volunteer-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <div class="volunteer-content">
+                            <h3 class="volunteer-title">Volunteer Retail Assistant</h3>
+                            <div class="volunteer-org">Red Cross Shop, Auckland (2024)</div>
+                            <p class="volunteer-desc">Provided customer service, organized inventory, and supported store operations.</p>
+                        </div>
+                    </div>
+                    <div class="volunteer-item fade-in">
+                        <div class="volunteer-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="volunteer-content">
+                            <h3 class="volunteer-title">Volunteer Tutor</h3>
+                            <div class="volunteer-org">Chongqing (2014)</div>
+                            <p class="volunteer-desc">Offered weekly one-on-one tutoring in math and science to underprivileged primary school students through a charity education initiative.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <p class="contact-quote">Always happy to connect & collaborate ✨</p>
+                <div class="contact-info">
+                    <a href="mailto:yxu349@aucklanduni.ac.nz" class="contact-link">yxu349@aucklanduni.ac.nz</a>
+                    <span style="color: #eef8f4;">•</span>
+                    <span>+022-123-0318</span>
+                    <span style="color: #eef8f4;">•</span>
+                    <span>Auckland, New Zealand</span>
+                </div>
+                <div class="contact-social">
+                    <a href="https://github.com/yunjie-nene" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/yunjie-xu-7b7a982bb/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:yxu349@aucklanduni.ac.nz" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
