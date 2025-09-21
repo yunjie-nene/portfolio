@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nora xu — software developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="watermark">NORA</div>
-    
+
     <header>
         <div class="container">
             <div class="header-content">
@@ -20,7 +24,8 @@
                 </div>
                 <nav class="social-icons">
                     <a href="https://github.com/yunjie-nene" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/yunjie-xu-7b7a982bb/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/yunjie-xu-7b7a982bb/" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
                     <a href="mailto:yxu349@aucklanduni.ac.nz" aria-label="Email"><i class="fas fa-envelope"></i></a>
                 </nav>
             </div>
@@ -31,7 +36,9 @@
         <section class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <img class="profile-image" src="https://res.cloudinary.com/dnmbrvmpc/image/upload/v1746929194/nora_ameyoh.jpg" alt="Me"></img>
+                    <img class="profile-image"
+                        src="https://res.cloudinary.com/dnmbrvmpc/image/upload/v1746929194/nora_ameyoh.jpg"
+                        alt="Me"></img>
                     <h1>Hi, I'm Nora — a curious mind building tech with heart.</h1>
                     <p class="hero-subtitle">Full-Stack Developer · AI Integration · ML Enthusiast</p>
                     <a href="#content" class="cta-button">See My Work</a>
@@ -54,12 +61,37 @@
             <div class="container">
                 <h2 class="section-title">things I've built</h2>
                 <div class="projects-grid">
-                    <a href="https://github.com/yunjie-nene/mini-trello-clone" target="_blank" class="project-card fade-in">
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3 class="project-title">Pilot Platform</h3>
+                            <span class="project-badge">Internship</span>
+                        </div>
+                        <p class="project-desc">Early-stage social/copy-trading product. Developed a C# Bridge adapter
+                            for NinjaTrader to publish live fills/ticks to backend and receive
+                            copy/command messages. Implemented FastAPI + WebSocket APIs for order publish/copy and
+                            account updates, ensuring
+                            correct, low-latency propagation to clients. Worked with frontend to integrate follow / copy
+                            / activate flows and socket lifecycle
+                            (connect/reconnect) behaviors.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">WebSocket</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
+
+                    <a href="https://github.com/yunjie-nene/mini-trello-clone" target="_blank"
+                        class="project-card fade-in">
                         <i class="fas fa-external-link-alt project-link-arrow"></i>
                         <div class="project-header">
                             <h3 class="project-title">Mini Trello Clone</h3>
                         </div>
-                        <p class="project-desc">A Kanban-style task management app with drag-and-drop cards, responsive design, and full CRUD features for boards, lists, and tasks. Built GraphQL APIs with Apollo Server and used Apollo Client for optimistic UI updates. Implemented native Drag & Drop and mobile-first layouts using Tailwind CSS and Radix UI.</p>
+                        <p class="project-desc">A Kanban-style task management app with drag-and-drop cards, responsive
+                            design, and full CRUD features for boards, lists, and tasks. Built GraphQL APIs with Apollo
+                            Server and used Apollo Client for optimistic UI updates. Implemented native Drag & Drop and
+                            mobile-first layouts using Tailwind CSS and Radix UI.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">React</span>
                             <span class="tech-tag">Node.js</span>
@@ -74,7 +106,9 @@
                             <h3 class="project-title">AWS Cloud Architecture</h3>
                             <span class="project-badge">group project</span>
                         </div>
-                        <p class="project-desc">Collaborated with teammates to design a scalable architecture for an e-commerce business. Defined goals and implemented infrastructure on AWS lab. Applied lifecycle policies, cross-region backup, auto scaling, and CloudWatch alerts.</p>
+                        <p class="project-desc">Collaborated with teammates to design a scalable architecture for an
+                            e-commerce business. Defined goals and implemented infrastructure on AWS lab. Applied
+                            lifecycle policies, cross-region backup, auto scaling, and CloudWatch alerts.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">CloudWatch</span>
                             <span class="tech-tag">Auto Scaling</span>
@@ -89,7 +123,9 @@
                             <h3 class="project-title">Collablog</h3>
                             <span class="project-badge">group project</span>
                         </div>
-                        <p class="project-desc">Led a team to build a full-stack blogging platform supporting multi-level comment threads and post interactions. Managed Git collaboration and version control. Implemented infinite scroll with masonry layout.</p>
+                        <p class="project-desc">Led a team to build a full-stack blogging platform supporting
+                            multi-level comment threads and post interactions. Managed Git collaboration and version
+                            control. Implemented infinite scroll with masonry layout.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">Svelte</span>
                             <span class="tech-tag">Express</span>
@@ -97,8 +133,8 @@
                             <span class="tech-tag">REST APIs</span>
                         </div>
                     </a>
-                    </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -113,6 +149,12 @@
                             <i class="fab fa-java skill-icon" data-tooltip="Java"></i>
                             <i class="fab fa-js skill-icon" data-tooltip="JavaScript"></i>
                             <i class="devicon-typescript-plain skill-icon" data-tooltip="TypeScript"></i>
+                            <div id="csharp-icon" class="skill-icon-container" data-tooltip="C#">
+                                <img class="svg-skill-icon" src="./images/csharp.svg" alt="C#" data-tooltip="C#">
+                            </div>
+                            <div id="dotnet-icon" class="skill-icon-container" data-tooltip=".NET">
+                                <img class="svg-skill-icon" src="./images/dotnet.svg" alt="dotnet" data-tooltip=".NET">
+                            </div>
                         </div>
                     </div>
                     <div class="skill-category fade-in">
@@ -121,8 +163,11 @@
                             <i class="fab fa-react skill-icon" data-tooltip="React"></i>
                             <i class="fab fa-node-js skill-icon" data-tooltip="Node.js (Express)"></i>
                             <i class="fas devicon-svelte-plain skill-icon" data-tooltip="Svelte"></i>
+                            <div id="fastapi" class="skill-icon-container" data-tooltip="Fast Api">
+                                <img class="svg-skill-icon" src="./images/fastapi.svg" alt="fastapi"
+                                    data-tooltip="Fast Api">
+                            </div>
                             <i class="fas fa-brain skill-icon" data-tooltip="scikit-learn"></i>
-                            <i class="fas fa-robot skill-icon" data-tooltip="Selenium"></i>
                             <i class="fas fa-vial skill-icon" data-tooltip="Pytest"></i>
                         </div>
                     </div>
@@ -132,6 +177,10 @@
                             <i class="fas fa-database skill-icon" data-tooltip="MySQL"></i>
                             <i class="fas devicon-sqlite-plain skill-icon" data-tooltip="SQLite"></i>
                             <i class="fas devicon-mongodb-plain skill-icon" data-tooltip="MongoDB"></i>
+                            <div id="postgresql" class="skill-icon-container" data-tooltip="PostgreSQL">
+                                <img class="svg-skill-icon" src="./images/postgresql.svg" alt="fastapi"
+                                    data-tooltip="PostgreSQL">
+                            </div>
                         </div>
                     </div>
                     <div class="skill-category fade-in">
@@ -152,16 +201,27 @@
             <div class="container">
                 <h2 class="section-title">my journey</h2>
                 <div class="timeline-container">
+                     <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Aug 2025 - Present</div>
+                            <h3 class="timeline-title">Software Developer Intern</h3>
+                            <div class="timeline-subtitle">Pilot, Auckland</div>
+                            <div class="timeline-description">Internship in a fintech startup, focusing on backend and
+                                integration development for a social trading
+                                platform. Contributed to real-time data streaming, platform connectivity, and deployment
+                                readiness.</div>
+                        </div>
+                    </div>
                     <div class="timeline-item fade-in">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
                             <div class="timeline-date">2024-2026</div>
                             <h3 class="timeline-title">Master of Information Technology</h3>
                             <div class="timeline-subtitle">University of Auckland</div>
-                            <div class="timeline-description">Current student with a GPA of 8.75/9.0 (S1-S2, 2024)</div>
+                            <div class="timeline-description">Current student with a GPA of 8.67/9.0 (S1-S2, 2024)</div>
                         </div>
                     </div>
-
                     <div class="timeline-item fade-in">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
@@ -169,7 +229,9 @@
                             <h3 class="timeline-title">Test Engineer</h3>
                             <div class="timeline-subtitle">Beijing Huahong IC Design Co., Ltd</div>
                             <div class="timeline-description">
-                                Tested smart gas meter systems and backend APIs using Python and Java. This role sparked my transition into software development, where I discovered my passion for scalable backend systems.
+                                Tested smart gas meter systems and backend APIs using Python and Java. This role sparked
+                                my transition into software development, where I discovered my passion for scalable
+                                backend systems.
                             </div>
                         </div>
                     </div>
@@ -180,7 +242,8 @@
                             <div class="timeline-date">2014-2018</div>
                             <h3 class="timeline-title">B.E. in Materials Science and Engineering</h3>
                             <div class="timeline-subtitle">Chongqing University</div>
-                            <div class="timeline-description">Foundation in engineering principles and analytical thinking</div>
+                            <div class="timeline-description">Foundation in engineering principles and analytical
+                                thinking</div>
                         </div>
                     </div>
                 </div>
@@ -196,9 +259,11 @@
                             <i class="fas fa-rocket"></i>
                         </div>
                         <div class="volunteer-content">
-                            <h3 class="volunteer-title">WDCC Hackathon Participant<span class="hackathon-badge">sci-fi themed</span></h3>
+                            <h3 class="volunteer-title">WDCC Hackathon Participant<span class="hackathon-badge">sci-fi
+                                    themed</span></h3>
                             <div class="volunteer-org">Auckland (2024)</div>
-                            <p class="volunteer-desc">Built a memory app coded prototype (BCI concept) in a sci-fi themed hackathon.</p>
+                            <p class="volunteer-desc">Built a memory app coded prototype (BCI concept) in a sci-fi
+                                themed hackathon.</p>
                         </div>
                     </div>
                     <div class="volunteer-item fade-in">
@@ -208,7 +273,8 @@
                         <div class="volunteer-content">
                             <h3 class="volunteer-title">Volunteer Retail Assistant</h3>
                             <div class="volunteer-org">Red Cross Shop, Auckland (2024)</div>
-                            <p class="volunteer-desc">Provided customer service, organized inventory, and supported store operations.</p>
+                            <p class="volunteer-desc">Provided customer service, organized inventory, and supported
+                                store operations.</p>
                         </div>
                     </div>
                     <div class="volunteer-item fade-in">
@@ -217,8 +283,9 @@
                         </div>
                         <div class="volunteer-content">
                             <h3 class="volunteer-title">Volunteer Tutor</h3>
-                            <div class="volunteer-org">Chongqing (2014)</div>
-                            <p class="volunteer-desc">Offered weekly one-on-one tutoring in math and science to underprivileged primary school students through a charity education initiative.</p>
+                            <div class="volunteer-org">Chongqing, China (2014)</div>
+                            <p class="volunteer-desc">Offered weekly one-on-one tutoring in math and science to
+                                underprivileged primary school students through a charity education initiative.</p>
                         </div>
                     </div>
                 </div>
@@ -234,7 +301,8 @@
                 </div>
                 <div class="contact-social">
                     <a href="https://github.com/yunjie-nene" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/yunjie-xu-7b7a982bb/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/yunjie-xu-7b7a982bb/" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
                     <a href="mailto:yxu349@aucklanduni.ac.nz" aria-label="Email"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
@@ -242,4 +310,5 @@
     </main>
     <script src="./script.js"></script>
 </body>
+
 </html>
